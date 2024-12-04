@@ -12,9 +12,9 @@ body {
   }
 
  .flex-img {
-    max-width: 30%; /* Adjust the percentage for size */
-    height: auto;   /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Add rounded corners */
+    max-width: 30%; 
+    height: auto;  
+    border-radius: 10px; 
 }
 .mimosa-title {
   font-family: 'Georgia', serif;
@@ -51,14 +51,12 @@ body {
   background-color: #fdfdff;
   width: 100%;
 }
-
-/* Overlay container */
 .position-relative {
   position: relative;
   display: inline-block;
 }
 
-/* Overlay text */
+
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -75,20 +73,20 @@ body {
   align-items: center;
 }
 
-/* On hover, increase brightness */
+
 .position-relative:hover .mimosa-img {
   filter: brightness(1.2);
 }
 
 .text-container {
-  background-color: #f8fafd;  /* Light baby blue background */
-  border: 2px solid #f7fbfd;  /* Baby blue border */
+  background-color: #f8fafd;  
+  border: 2px solid #f7fbfd;  
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Optional shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
 }
 
 .text-dark-blue {
-  color: #8b9be4;  /* Darker light blue (Steel Blue) */
+  color: #8b9be4; 
 }
 .manuel-title {
   font-family: 'Georgia', serif;
@@ -103,76 +101,28 @@ body {
   color: purple;
 }
 .cat-section img {
-  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+  transition: transform 0.3s ease-in-out; 
 }
 
 .cat-section img:hover {
-  transform: scale(1.1); /* Enlarges the image by 10% */
+  transform: scale(1.2); 
 }
 .footer-custom a:hover {
   text-decoration: underline;
 }
 .footer-custom {
-  background-color: #f5f5f9; /* Light gray for contrast */
+  background-color: #f5f5f9; 
   width: 100%;
 }
 
-
-
-/* Custom style for DPS heading /
-.dps-heading {
-  color: #ff4500; / A bright orange-red /
-  font-family: 'Arial Black', sans-serif; / Bold and modern font /
-  font-size: 2.5rem; / Increase the size /
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: #ff4500; /Matches text color /
-  text-decoration-thickness: 3px; / Thickness of the underline /
-  text-underline-offset: 5px; / Distance between the text and underline /
- 
+.navbar {
+  font-family: 'Arial', sans-serif; 
 }
 
-.section-dps p.red-paragraph {
-  color: #ff4500;
+.navbar-brand, .nav-link {
+  font-family: 'Georgia', serif;
 }
-
-.tank-heading {
-  color: #1e90ff; / Dodger blue /
-  font-family: 'Arial Black', sans-serif; / Bold and modern font /
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: #1e90ff; / Matches text color /
-  text-decoration-thickness: 3px; / Thickness of the underline /
-  text-underline-offset: 5px; / Distance between the text and underline /
+.nav-link:hover {
+  color: #f8fafb; 
+  transition: color 0.3s ease; 
 }
-
-.section-dps p.blue-paragraph {
-  color: #1e90ff;
-}
-
-/ Custom style for HEALER heading /
-.healer-heading {
-  color: #32cd32; / Lime green /
-  font-family: 'Arial Black', sans-serif; / Bold and modern font /
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: #32cd32; / Matches text color /
-  text-decoration-thickness: 3px; / Thickness of the underline /
-  text-underline-offset: 5px; / Distance between the text and underline /
-}
-
-.section-dps p.green-paragraph {
-  color: rgb(24, 201, 24);
-}
-
-.custom-healer-btn {
-  background-color: #32cd32; / A custom green shade /
-  border-color: #32cd32;    / Match the border color to the button /
-  color: #fff;             / White text for good contrast /
-}
-
-.custom-healer-btn:hover {
-  background-color: #45a049; / Slightly darker shade for hover effect /
-  border-color: #45a049;    / Match border on hover */
