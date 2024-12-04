@@ -1,0 +1,80 @@
+body {
+    background-color: #39333d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(158, 200, 211);
+    height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+ .flex-img {
+    max-width: 30%; /* Adjust the percentage for size */
+    height: auto;   /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+.cat-section {
+    padding-bottom: 40px; /* Adds more space at the bottom of the section */
+}
+.cat-text {
+    color: #333;
+    line-height: 1.6;
+}
+.mimosa-title {
+    font-family: 'Georgia', serif;
+    color: #d63384;
+  }
+  
+  .mimosa-card {
+    background-color: #f8f9fa;
+    border: 1px solid #d63384;
+  }
+  
+  .mimosa-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .mimosa-img:hover {
+    transform: scale(1.05);
+  }
+  body {
+    background: url('kuvat/mimojamanu.JPG') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Transparent Textbox */
+.textbox {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1, p {
+    color: white;
+}
+
+.mimosa-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.footer-custom {
+  background-color: #f8f9fa; /* Light gray for contrast */
+  width: 100%;
+}
+
+.footer-custom p, .footer-custom a {
+  color: #333; /* Darker text color for readability */
+}
+
+.footer-custom a:hover {
+  text-decoration: underline;
+}

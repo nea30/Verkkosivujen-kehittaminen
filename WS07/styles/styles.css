@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0%;
+    height:fit-content;
+    padding-bottom: 300px;
+    background-color: rgb(198, 121, 212);
+    color: rgb(97, 14, 71);
+    
+}
+.row {
+    background-color: black;
+    color: white;
+}
